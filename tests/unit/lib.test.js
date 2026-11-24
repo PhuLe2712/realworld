@@ -153,6 +153,7 @@ describe('validateParam', () => {
 
       config.isDemo = originalIsDemo;
     });
+  });
   
    describe('formatArticleSlug', () => {
     test('should convert title with spaces to lowercase hyphenated slug', () => {
